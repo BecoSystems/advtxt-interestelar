@@ -45,5 +45,35 @@ int primeira_escolha(){
     printf("Digite o numero do objeto escolhido");
     scanf("%d",&escolha);
 
+switch (escolha) {
+cases1:
+    printf("\n voce escolheu a tocha azul.Ela revela armadilhas do chão\n");
+    return 1
+       case 2
+       printf("\n voce escolheu a Espada,ofensivamente muito boa mas não revela os perigos ocultos");
+    return 2
+        case 3
+        printf("\nvoce escolheu a garrfa de agua que intuitivamente mata a sua sede e nada mais");
+    return primeira_escolha();
+}
+ void segunda_escolha (int objeto){
+     int escolha;
+     printf("\n Agora,escolha uma ação pra continuar:\n");
+     printf("\n 1.Abrir a porta");
+     printf("\n 2.Examinar o chão");
+     printf("\n 3.Arremessar a garrafa na parede")
+         printf("Escolha o numero da opção escolhida")
+         scanf("%d",&escolhas);
 
+     if(objeto==1&&escolha==2){
+         printf("\nParabens!Voce usou a tocha pra examinar o chão e descobriu a armadilha");
+     }
+     else{
+         introdução();
+             int objeto=primeira_escolha;
+             int objeto=primeira escolha();
+             segunda_escolha(objeto);
+             return 0
+
+}
 
